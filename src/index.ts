@@ -1,5 +1,8 @@
 require('dotenv').config()
 
+import './store/mongoDb/connection'
+import './store/firebase/connection'
+
 import express from 'express'
 import config from '../config'
 
